@@ -6,15 +6,26 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+Order Pizza
+Create a website for a pizza company where a user can choose one or more individual toppings (cheese, pepperoni, artichoke, anchovy, etc) and a size to order a pizza and see the final cost.
 
-## Setup/Installation Requirements
+Allow the user to choose toppings and size for the pizza they'd like to order.
+Create a pizza object constructor with properties for toppings and size.
+Create a prototype method for the cost of a pizza depending on the selections chosen. Use your own formula for this.
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+## Specifications
+* _Display options_
+  * users will view pizza size choices
+  * topping options
+
+* select size
+  * large, medium, small
+
+* select toppings
+
+* Display prices based on selections
+  * input: large, pepperoni
+  * output: $12.95
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
