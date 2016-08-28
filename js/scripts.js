@@ -1,13 +1,12 @@
-// backend
-function pizza(toppings, pieSize, cost) {
-  this.toppingsList = toppings;
-  this.pizzaSize = pieSize;
-  this.price = cost;
-  }
+// Business Logic
+function pizza(size) {
+  this.pizzaSize = size;
+  this.pizzaCost = 9;
+}
 
-var plainPie1 = new pizza(["none"], "small", 8.99)
-var plainPie2 = new pizza(["none"], "medium", 9.99)
-var plainPie3 = new pizza(["none"], "small", 10.99)
-var pepperoniPie1 = new pizza(["pepperoni"], "small", 10.99)
-var pepperoniPie2 = new pizza(["pepperoni"], "medium", 11.99)
-var pepperoniPie3 = new pizza(["pepperoni"], "small", 12.99)
+var myTicket;
+var pizzaPrice = [];
+
+pizza.prototype.prices = function () {
+  this.pizza.push(pizzaPriceChild);
+}
