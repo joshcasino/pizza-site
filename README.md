@@ -1,33 +1,21 @@
-# _{Application Name}_
+# _PizzaSite_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Basic form to order pizza_
 
-#### By _**{List of contributors}**_
+#### By _**josh casuccio**_
 
 ## Description
 
-Order Pizza
-Create a website for a pizza company where a user can choose one or more individual toppings (cheese, pepperoni, artichoke, anchovy, etc) and a size to order a pizza and see the final cost.
-
-Allow the user to choose toppings and size for the pizza they'd like to order.
-Create a pizza object constructor with properties for toppings and size.
-Create a prototype method for the cost of a pizza depending on the selections chosen. Use your own formula for this.
+order a pizza     
 
 ## Specifications
-* _Display options_
-  * users will view pizza size choices
-  * topping options
-
-* select size
-  * large, medium, small
-
-* select toppings
+* _choices_
+  * user inputs size / topping option
 
 * Display prices based on selections
   * input: large, pepperoni
-  * output: $12.95
+  * output: 12.00
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ## Known Bugs
 
