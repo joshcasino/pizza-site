@@ -6,24 +6,26 @@ function Pizza(size, toppings) {
 
 Pizza.prototype.price = function() {
   var baseCost = 9
+  var prices = []
     if (this.toppings === "pepperoni") {
-        baseCost = baseCost + 1
+        prices.push(baseCost = baseCost + 3)
+        console.log(prices);
     }
     if (this.toppings === "mushrooms") {
-        baseCost = baseCost + 2
+        prices.push(baseCost = baseCost + 2)
     }
     if (this.toppings === "peppers") {
-        baseCost = baseCost + 3
+        prices.push(baseCost = baseCost + 2)
     }
     if (this.size === "large") {
-        baseCost = baseCost + 10
+        prices.push(baseCost = baseCost + 5)
     } else if (this.size === "medium") {
-        baseCost = baseCost + 5
+        prices.push(baseCost = baseCost + 4)
     } else {
-        baseCost = baseCost;
+      return baseCost;
     }
     console.log(baseCost);
-    return baseCost;
+
 };
 
 //ui logic
