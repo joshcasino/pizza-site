@@ -18,23 +18,23 @@ Pizza.prototype.price = function() {
         prices.push(baseCost = baseCost + 2)
     }
     if (this.size === "large") {
-        prices.push(baseCost = baseCost + 5)
-    } else if (this.size === "medium") {
         prices.push(baseCost = baseCost + 4)
+    } else if (this.size === "medium") {
+        prices.push(baseCost = baseCost + 2)
     } else {
-      return baseCost;
+        prices.push(baseCost = baseCost);
     }
     console.log(baseCost);
-
+    return baseCost;
 };
 
 //ui logic
 $(document).ready(function() {
-    $("#pizzaForm").submit(function(event) {
-        event.preventDefault();
-        var size = $("input:radio[name=pieSize]:checked").val();
-        var toppings = $("input:radio[name=toppings]:checked").val();
-        var myPizza = new Pizza(size, toppings);
-        $("#yourCost").text("$" + myPizza.price() + ".00");
-    });
+  $("#pizzaForm").submit(function(event) {
+    event.preventDefault();
+    var size = $("input:radio[name=pizzaSize]:checked").val();
+    var toppings = $("input:radio[name=toppings]:checked").val();
+    var myPizza = new Pizza(size, toppings);
+    $("#yourCost").text("$" + myPizza.price() + ".00");
+  });
 });
