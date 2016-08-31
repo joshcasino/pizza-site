@@ -2,14 +2,18 @@
   background-color: red;
   width: 800px;
   height: 600px;
+  border-color: solid 2px black;
 }
 
 header {
   text-align: center;
 }
 
-#pizzaPic {
-  display: block;
+/*#pizzaPic {
+  padding-left: 300px;
+  padding-top: 20px;
+}*/
+
+#yourCost {
   text-align: center;
-  margin-top: 12px;
 }
